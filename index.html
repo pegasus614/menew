@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- AOS + CSS -->
+  <link rel="stylesheet" href="./css/aos.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./fontawesome/fontawesome-free-6.7.2-web/css/all.min.css" />
+</head>
+<body>
+
+  <!-- MENU BAR -->
+  <nav class="menu-bar">
+
+    <!-- HAMBURGER BUTTON -->
+    <button class="menu-toggle" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul id="menuLinks">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </nav>
+
+  <!-- BANNER -->
+  <section class="banner" data-aos="fade-up" data-aos-duration="1200">
+    <div class="banner1"></div>
+    <div class="banner2"></div>
+    <div class="banner3"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="content" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+    <div class="content-3">
+      <h2>About Me</h2>
+      <p>
+        Hi, my name is <strong>Emmanuel Odeh</strong>. I’m a passionate Full Stack Developer with 1 year of
+        hands-on experience building and maintaining modern, user-friendly, and scalable web applications.
+      </p>
+      <p>
+        I specialize in <b>HTML, CSS, JavaScript, and PHP</b>. I enjoy turning ideas into functional, visually
+        appealing, and efficient solutions—from responsive front-end designs to secure back-end systems.
+      </p>
+      <p>
+        I’m always eager to learn, grow, and collaborate with like-minded professionals.
+      </p>
+    </div>
+  </section>
+
+  <!-- CIRCLES SECTION -->
+  <section class="circle-container" id="services">
+    <div class="circle content1" data-aos="zoom-in"></div>
+    <div class="circle content2" data-aos="zoom-in"></div>
+    <div class="circle content3" data-aos="zoom-in"></div>
+    <div class="circle content4" data-aos="zoom-in"></div>
+    <div class="circle content5" data-aos="zoom-in"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="content" data-aos="fade-up" data-aos-duration="1200">
+    <h2>Contact Me</h2>
+    <p>
+      <i class="fas fa-envelope"></i> emmanuelodeh5555@gmail.com <br />
+      <i class="fas fa-phone"></i> +234 (811) 966 - 1072
+    </p>
+  </section>
+
+  <!-- AOS SCRIPT -->
+  <script src="./js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- MENU JS -->
+  <script src="./js/script.js" defer></script>
+
+</body>
+</html>
